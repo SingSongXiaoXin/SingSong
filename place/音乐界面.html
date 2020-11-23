@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="../CSS/music.css">
+</head>
+<style>
+    html,body
+    {
+        margin: 0px;
+        background-color: rgb(247, 205, 212);
+    }
+</style>
+<body id="body" onscroll="myfunction3()">
+    <script>
+        function myfunction(x)
+        {
+            var music=new Array();
+            var picture=new Array();
+            music[1]="https://freetyst.nf.migu.cn/public/product9th/product42/2020/11/0513/2020%E5%B9%B410%E6%9C%8830%E6%97%A518%E7%82%B959%E5%88%86%E7%B4%A7%E6%80%A5%E5%86%85%E5%AE%B9%E5%87%86%E5%85%A5%E6%AD%A3%E4%B8%9C11%E9%A6%96841146/%E6%AD%8C%E6%9B%B2%E4%B8%8B%E8%BD%BD/MP3_40_16_Stero/6005662VF1Q131358.mp3?key=52fab9dab1a5ff7a&Tim=1604568926780&channelid=00&msisdn=bd2df4174aaa4e269679a25b842674f6&CI=6005662VF1Q2600919000001872988&F=000009"
+            picture[1]="../img/what do you mean.jpg"
+            music[2]="https://freetyst.nf.migu.cn/public/product9th/product41/2020/09/1813/2020%E5%B9%B409%E6%9C%8818%E6%97%A512%E7%82%B940%E5%88%86%E6%89%B9%E9%87%8F%E9%A1%B9%E7%9B%AE%E6%AD%A3%E4%B8%9C1%E9%A6%96-1/%E6%AD%8C%E6%9B%B2%E4%B8%8B%E8%BD%BD/MP3_40_16_Stero/6005662SKN5132239.mp3?key=d96bb489e0fb5aa8&Tim=1604570620844&channelid=00&msisdn=9811d3ed87a747b9b77951a7c144b81d&CI=6005662SKN52600918000001356009&F=000009"
+            picture[2]="../img/holy.jpg"
+            music[3]="https://freetyst.nf.migu.cn/public/product9th/product42/2020/11/0414/2020%E5%B9%B410%E6%9C%8830%E6%97%A508%E7%82%B959%E5%88%86%E7%B4%A7%E6%80%A5%E5%86%85%E5%AE%B9%E5%87%86%E5%85%A5%E6%AD%A3%E4%B8%9C4%E9%A6%96179852/%E6%AD%8C%E6%9B%B2%E4%B8%8B%E8%BD%BD/MP3_40_16_Stero/6005662V6RY141514.mp3?key=dc3c56cee2d5574c&Tim=1604570754838&channelid=00&msisdn=0bf3ce6163d3400389314050237b4ba6&CI=6005662V6RY2600919000001944783&F=000009"
+            picture[3]="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1605367788087&di=112d0733f32b9ffffd36b40b0ad251f1&imgtype=0&src=http%3A%2F%2Fg.hiphotos.baidu.com%2Fbaike%2Fpic%2Fitem%2F2934349b033b5bb5f7ce00d135d3d539b600bc87.jpg";
+            music[4]="https://freetyst.nf.migu.cn/public/product5th/product34/2019/07/2416/2018%E5%B9%B411%E6%9C%8810%E6%97%A513%E7%82%B920%E5%88%86%E6%89%B9%E9%87%8F%E9%A1%B9%E7%9B%AE%E6%AD%A3%E4%B8%9C98%E9%A6%96-1/%E6%AD%8C%E6%9B%B2%E4%B8%8B%E8%BD%BD/MP3_40_16_Stero/6005661MVMD.mp3?key=edc232f758982bad&Tim=1605361612426&channelid=00&msisdn=e3b9fb55f6c44ceeb34272e41b325e48&CI=6005661MVMD2600910000009720202&F=000009"
+            picture[4]="../img/what do you mean.jpg"
+            music[5]="https://freetyst.nf.migu.cn/public/ringmaker01/dailyring03/vsftp/ywq/public/ringmaker01/dailyring03/2015/11/2015%E5%B9%B411%E6%9C%8813%E6%97%A516%E7%82%B925%E5%88%86%E7%B4%A7%E6%80%A5%E5%86%85%E5%AE%B9%E5%87%86%E5%85%A5%E6%AD%A3%E4%B8%9C9%E9%A6%96/%E6%AD%8C%E6%9B%B2%E4%B8%8B%E8%BD%BD/MP3_40_16_Stero/Been%20You-Justin%20Bieber.mp3?key=0e778bc0693fa67a&Tim=1605361988791&channelid=00&msisdn=99a5224f21f24db9be2d0178192c89c3&CI=6005660BFST2600907000007355581&F=000009"
+            picture[5]="../img/what do you mean.jpg"
+            music[6]="https://freetyst.nf.migu.cn/public/product9th/product42/2020/11/1119/2020%E5%B9%B411%E6%9C%8806%E6%97%A517%E7%82%B901%E5%88%86%E7%B4%A7%E6%80%A5%E5%86%85%E5%AE%B9%E5%87%86%E5%85%A5%E6%AD%A3%E4%B8%9C10%E9%A6%96825460/%E6%AD%8C%E6%9B%B2%E4%B8%8B%E8%BD%BD/MP3_40_16_Stero/6005662VX7K191303.mp3?key=a613f35f898cb8ad&Tim=1605362543422&channelid=00&msisdn=1456ff8484a24a15ae5e6c68ee9650b3&CI=6005662VX7K2600919000002097116&F=000009"
+            picture[6]="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=2167110695,197606088&fm=26&gp=0.jpg"
+            music[7]="https://freetyst.nf.migu.cn/public/product9th/product42/2020/11/1315/2020%E5%B9%B411%E6%9C%8813%E6%97%A511%E7%82%B913%E5%88%86%E7%B4%A7%E6%80%A5%E5%86%85%E5%AE%B9%E5%87%86%E5%85%A5%E6%AD%A3%E4%B8%9C8%E9%A6%96672366/%E6%AD%8C%E6%9B%B2%E4%B8%8B%E8%BD%BD/MP3_40_16_Stero/6005662W7TW150853.mp3?key=4d17c9b68b9e710b&Tim=1605362803540&channelid=00&msisdn=893d5f1d3b40420c98aabaa208529ac1&CI=6005662W7TW2600919000002135516&F=000009"
+            picture[7]="https://cdnmusic.migu.cn/picture/2020/0917/1735/AS3119482e19d86823720e1a04b1f29cea.jpg"
+            music[8]="https://isure.stream.qqmusic.qq.com/C4000046kOku08hs5y.m4a?guid=2973850054&vkey=66F138DE0B62EC60F32E616420EB1CDB2CD01CF12223D03E08B4B16EDA6767A6914939065537E7039C0FD587C9605C7F0E82A5086825BAE9&uin=7372&fromtag=66"
+            picture[8]="https://y.gtimg.cn/music/photo_new/T002R300x300M000004gR9yx2Ev1Ne_1.jpg?max_age=2592000"
+            music[9]="https://freetyst.nf.migu.cn/public/product9th/product42/2020/11/0414/2020%E5%B9%B410%E6%9C%8830%E6%97%A508%E7%82%B951%E5%88%86%E7%B4%A7%E6%80%A5%E5%86%85%E5%AE%B9%E5%87%86%E5%85%A5%E6%AD%A3%E4%B8%9C14%E9%A6%96165345/%E6%AD%8C%E6%9B%B2%E4%B8%8B%E8%BD%BD/MP3_40_16_Stero/6005662V6DB141507.mp3?key=d011266087356c1b&Tim=1605369994041&channelid=00&msisdn=a042879242e94e3f9ed57b00aab72c97&CI=6005662V6DB2600919000001944695&F=000009"
+            picture[9]="https://cdnmusic.migu.cn/picture/2019/1031/0321/AS1497041466994714b6f171838525e34d.jpg"
+            music[10]="https://freetyst.nf.migu.cn/public/product9th/product41/2020/08/1013/2009%E5%B9%B406%E6%9C%8826%E6%97%A5%E5%8D%9A%E5%B0%94%E6%99%AE%E6%96%AF/%E6%AD%8C%E6%9B%B2%E4%B8%8B%E8%BD%BD/MP3_40_16_Stero/60054701958132127.mp3?key=628bbf22d851a80e&Tim=1605368553131&channelid=00&msisdn=8fed69e277264144bbc5bd34556aeba6&CI=600547019582600902000006889222&F=000009"
+            picture[10]="https://cdnmusic.migu.cn/picture/2020/0611/1054/ARTMefb7b84e00cfb7692ea2d3eaafd8b09f.jpg"
+            music[11]="https://freetyst.nf.migu.cn/public/product9th/product41/2020/08/1013/2009%E5%B9%B406%E6%9C%8826%E6%97%A5%E5%8D%9A%E5%B0%94%E6%99%AE%E6%96%AF/%E6%AD%8C%E6%9B%B2%E4%B8%8B%E8%BD%BD/MP3_40_16_Stero/60054701921134458.mp3?key=8228ff3bd53cf3ec&Tim=1605368984207&channelid=00&msisdn=f85d1b905e934afc91d1f80c60b4f613&CI=600547019212600902000006889374&F=000009"
+            picture[11]="https://cdnmusic.migu.cn/picture/2020/0611/1054/ARTMefb7b84e00cfb7692ea2d3eaafd8b09f.jpg"
+            music[12]="https://freetyst.nf.migu.cn/public/product9th/product41/2020/08/1013/2009%E5%B9%B406%E6%9C%8826%E6%97%A5%E5%8D%9A%E5%B0%94%E6%99%AE%E6%96%AF/%E6%AD%8C%E6%9B%B2%E4%B8%8B%E8%BD%BD/MP3_40_16_Stero/60054702010133401.mp3?key=9d0d0a0a1ec7b026&Tim=1605369065499&channelid=00&msisdn=9c0a3dada3ea452fa9d9791730305486&CI=600547020102600902000006889010&F=000009"
+            picture[12]="https://cdnmusic.migu.cn/picture/2020/0611/1054/ARTMefb7b84e00cfb7692ea2d3eaafd8b09f.jpg"
+            music[13]="https://freetyst.nf.migu.cn/public/product9th/product41/2020/08/1013/2009%E5%B9%B406%E6%9C%8826%E6%97%A5%E5%8D%9A%E5%B0%94%E6%99%AE%E6%96%AF/%E6%AD%8C%E6%9B%B2%E4%B8%8B%E8%BD%BD/MP3_40_16_Stero/60054701962134723.mp3?key=1227af6af4409d5d&Tim=1605369282605&channelid=00&msisdn=e752e9791ae0473ebdbb65eb14d32945&CI=600547019622600902000006889206&F=000009"
+            picture[13]="https://cdnmusic.migu.cn/picture/2020/0813/1456/AS4a5941d2143e0fbe1b1fb315fa6bafbf.jpg"
+            music[14]="https://freetyst.nf.migu.cn/public/product9th/product41/2020/08/1013/2009%E5%B9%B406%E6%9C%8826%E6%97%A5%E5%8D%9A%E5%B0%94%E6%99%AE%E6%96%AF/%E6%AD%8C%E6%9B%B2%E4%B8%8B%E8%BD%BD/MP3_40_16_Stero/60054701934133203.mp3?key=e275d1d995060828&Tim=1605369371822&channelid=00&msisdn=37c0d996134e445baa51132b9d7a872a&CI=600547019342600902000006889322&F=000009"
+            picture[14]="https://cdnmusic.migu.cn/picture/2020/0918/1728/AS1875dd224f9487154de50fdd20137052.jpg"
+            music[15]="https://freetyst.nf.migu.cn/public/product9th/product41/2020/08/1013/2016%E5%B9%B408%E6%9C%8815%E6%97%A509%E7%82%B919%E5%88%86%E5%86%85%E5%AE%B9%E5%87%86%E5%85%A5%E7%BA%B5%E6%A8%AA%E4%B8%96%E4%BB%A310%E9%A6%96/%E6%AD%8C%E6%9B%B2%E4%B8%8B%E8%BD%BD/MP3_40_16_Stero/60054704037134055.mp3?key=ce113388a6001f3d&Tim=1605369465421&channelid=00&msisdn=ebd84378f1a947d5bfc3877c8001f1b8&CI=600547040372600908000003562466&F=000009"
+            picture[15]="https://cdnmusic.migu.cn/picture/2019/1031/0254/ASd6c2d9697d2a4f5f96508c8a7ec8b1a8.jpg"
+            music[16]="https://freetyst.nf.migu.cn/public/product09/2018/05/04/2009%E5%B9%B406%E6%9C%8826%E6%97%A5%E5%8D%9A%E5%B0%94%E6%99%AE%E6%96%AF/%E6%AD%8C%E6%9B%B2%E4%B8%8B%E8%BD%BD/MP3_40_16_Stero/%E9%9D%92%E8%8A%B1%E7%93%B7-%E5%91%A8%E6%9D%B0%E4%BC%A6.mp3?key=f8716f1a67bd6a7c&Tim=1605369565083&channelid=00&msisdn=aa409ff6f9064bef94cd106cddb92441&CI=600547019912600902000006889090&F=000009"
+            picture[16]="https://cdnmusic.migu.cn/picture/2019/1031/0114/AS7be67f4731fd4ccb9a95b42f7875dd2b.jpg"
+            music[17]="https://freetyst.nf.migu.cn/public/product8th/product40/2020/05/0918/2018%E5%B9%B401%E6%9C%8818%E6%97%A500%E7%82%B921%E5%88%86%E7%B4%A7%E6%80%A5%E5%86%85%E5%AE%B9%E5%87%86%E5%85%A5%E7%BA%B5%E6%A8%AA%E4%B8%96%E4%BB%A31%E9%A6%96/%E6%AD%8C%E6%9B%B2%E4%B8%8B%E8%BD%BD/MP3_40_16_Stero/60054704083183411.mp3?key=0bbd0e380d5411c4&Tim=1605369751713&channelid=00&msisdn=5c92372263e34fe1a96c92e2a7107b21&CI=600547040832600908000006663347&F=000009"
+            picture[17]="https://cdnmusic.migu.cn/picture/2019/1031/0318/AS5be7234d71474feca10d2d89ccb4ccc2.jpg"
+            music[18]="https://freetyst.nf.migu.cn/public/product9th/product41/2020/08/1013/2009%E5%B9%B406%E6%9C%8826%E6%97%A5%E5%8D%9A%E5%B0%94%E6%99%AE%E6%96%AF/%E6%AD%8C%E6%9B%B2%E4%B8%8B%E8%BD%BD/MP3_40_16_Stero/60054701923133602.mp3?key=0a8f4b95c38d8430&Tim=1605364100467&channelid=00&msisdn=9d855872b83040b3be1bd90e84b42037&CI=600547019232600902000006889366&F=000009"
+            picture[18]="https://cdnmusic.migu.cn/picture/2020/0611/1054/ARTMefb7b84e00cfb7692ea2d3eaafd8b09f.jpg"
+            music[19]="https://freetyst.nf.migu.cn/public/product8th/product38/2019/12/2617/2019%E5%B9%B409%E6%9C%8816%E6%97%A522%E7%82%B944%E5%88%86%E7%B4%A7%E6%80%A5%E5%86%85%E5%AE%B9%E5%87%86%E5%85%A5%E7%BA%B5%E6%A8%AA%E4%B8%96%E4%BB%A31%E9%A6%96/%E6%AD%8C%E6%9B%B2%E4%B8%8B%E8%BD%BD/MP3_40_16_Stero/6005479Z068.mp3?key=1700553d430a6ce7&Tim=1605706933790&channelid=00&msisdn=4df27a0978fd46f5b518626a3e905fc6&CI=6005479Z0682600907000009041435&F=000009"
+            picture[19]="https://cdnmusic.migu.cn/picture/2020/0807/1735/AS27d797511cf11f70c14b95898b810694.jpg"
+            music[20]="https://freetyst.nf.migu.cn/public/product9th/product41/2020/08/1013/2019%E5%B9%B403%E6%9C%8808%E6%97%A510%E7%82%B911%E5%88%86%E7%B4%A7%E6%80%A5%E5%86%85%E5%AE%B9%E5%87%86%E5%85%A5%E6%AD%A3%E4%B8%9C16%E9%A6%96232257/%E6%AD%8C%E6%9B%B2%E4%B8%8B%E8%BD%BD/MP3_40_16_Stero/6005661U9NF131959.mp3?key=78a2f845681ed877&Tim=1605706681020&channelid=00&msisdn=a22eb25f80ad4f9ebc4e5f03c255b6b9&CI=6005661U9NF2600913000002823085&F=000009"
+            picture[20]="https://cdnmusic.migu.cn/picture/2020/1117/0314/AS9006964595cbc0a313d86957a835025b.jpg"
+            music[21]="https://freetyst.nf.migu.cn/public/product5th/product32/2019/05/1613/2018%E5%B9%B411%E6%9C%8810%E6%97%A512%E7%82%B925%E5%88%86%E6%89%B9%E9%87%8F%E9%A1%B9%E7%9B%AE%E6%AD%A3%E4%B8%9C95%E9%A6%96-11/%E6%AD%8C%E6%9B%B2%E4%B8%8B%E8%BD%BD/MP3_40_16_Stero/6005661J6WL.mp3?key=daeb7ea1459fcfa9&Tim=1605707352099&channelid=00&msisdn=58c63c0cf2d94b43b45b8d5e160ce7cd&CI=6005661J6WL2600914000000019613&F=000009"
+            picture[21]="https://cdnmusic.migu.cn/picture/2020/0717/1158/ASf5bccafd31971939786adaa093e51587.jpg"
+            music[22]="https://freetyst.nf.migu.cn/public/product9th/product41/2020/08/1013/2018%E5%B9%B411%E6%9C%8809%E6%97%A522%E7%82%B920%E5%88%86%E6%89%B9%E9%87%8F%E9%A1%B9%E7%9B%AE%E6%AD%A3%E4%B8%9C88%E9%A6%96-7/%E6%AD%8C%E6%9B%B2%E4%B8%8B%E8%BD%BD/MP3_40_16_Stero/6005661GXR2132840.mp3?key=aa1c2d3625a30c73&Tim=1605707427635&channelid=00&msisdn=d22d2a85f11e4668bbba9c57b8d3b2b6&CI=6005661GXR22600914000000332024&F=000009"
+            picture[22]="https://cdnmusic.migu.cn/picture/2020/0717/1157/AS970c8e1c988f975ba069851153dc7f6d.jpg"
+            music[23]="https://freetyst.nf.migu.cn/public/product9th/product41/2020/08/1013/2018%E5%B9%B411%E6%9C%8809%E6%97%A522%E7%82%B910%E5%88%86%E6%89%B9%E9%87%8F%E9%A1%B9%E7%9B%AE%E6%AD%A3%E4%B8%9C100%E9%A6%96-7/%E6%AD%8C%E6%9B%B2%E4%B8%8B%E8%BD%BD/MP3_40_16_Stero/6005661GS7W132002.mp3?key=65ac6f6764afbb43&Tim=1605707552109&channelid=00&msisdn=0e06affd2dbd4e4694251bc2928c76c8&CI=6005661GS7W2600914000000022211&F=000009"
+            picture[23]="https://cdnmusic.migu.cn/picture/2020/0717/1157/AS970c8e1c988f975ba069851153dc7f6d.jpg"
+            music[24]="https://freetyst.nf.migu.cn/public/product5th/product35/2019/09/2709/2019%E5%B9%B409%E6%9C%8807%E6%97%A505%E7%82%B959%E5%88%86%E5%86%85%E5%AE%B9%E5%87%86%E5%85%A5%E6%AD%A3%E4%B8%9C34%E9%A6%96095188/%E6%AD%8C%E6%9B%B2%E4%B8%8B%E8%BD%BD/MP3_40_16_Stero/6005662G4QA.mp3?key=8bcec9f691dc9601&Tim=1605707656351&channelid=00&msisdn=a32dc9fdc53047d2bde1d7df764612fc&CI=6005662G4QA2600913000006280341&F=000009"
+            picture[24]="https://cdnmusic.migu.cn/picture/2020/0717/1157/AS6e5b36fa0c85bae13928e0b2abba1573.jpg"
+            music[25]="https://freetyst.nf.migu.cn/public/product9th/product41/2020/08/1013/%E9%A2%84%E7%94%9F%E6%95%88%E5%A5%A5%E8%BF%90sonybmg%E7%AC%AC20%E6%89%B95000%E9%A6%96/%E6%AD%8C%E6%9B%B2%E4%B8%8B%E8%BD%BD/MP3_40_16_Stero/60059712349134859.mp3?key=fa28a7f4c20ff870&Tim=1605708305357&channelid=00&msisdn=d5b83c6924664d3cad92afa5ab84b54d&CI=600597123492600902000002560500&F=000009"
+            picture[25]="https://cdnmusic.migu.cn/picture/2019/1112/0928/ASd0b3ec03d7ff460d962c3d4c38fcd531.jpg"
+            music[26]="https://freetyst.nf.migu.cn/public/product9th/product42/2020/10/0915/2020%E5%B9%B409%E6%9C%8817%E6%97%A518%E7%82%B939%E5%88%86%E5%86%85%E5%AE%B9%E5%87%86%E5%85%A5%E6%AD%A3%E4%B8%9C4%E9%A6%96511317/%E6%AD%8C%E6%9B%B2%E4%B8%8B%E8%BD%BD/MP3_40_16_Stero/6005662SFAM152220.mp3?key=1370663d05bde49b&Tim=1605708406648&channelid=00&msisdn=1e1daf65d8814008906e7506ebc7c71a&CI=6005662SFAM2600919000001357385&F=000009"
+            picture[26]="https://cdnmusic.migu.cn/picture/2020/1117/0314/AS861095b665c34f6d69b9a178d7c34de5.jpg"
+            music[27]="https://freetyst.nf.migu.cn/public/product9th/product41/2020/08/1013/2019%E5%B9%B401%E6%9C%8829%E6%97%A512%E7%82%B940%E5%88%86%E6%89%B9%E9%87%8F%E9%A1%B9%E7%9B%AE%E6%AD%A3%E4%B8%9C100%E9%A6%96-10/%E6%AD%8C%E6%9B%B2%E4%B8%8B%E8%BD%BD/MP3_40_16_Stero/6005661L43S131908.mp3?key=0c762b579b6a9643&Tim=1605708574325&channelid=00&msisdn=a041e464b2af460a931b7cce1671c80f&CI=6005661L43S2600914000007180652&F=000009"
+            picture[27]="https://cdnmusic.migu.cn/picture/2020/0924/0321/AS6473b7c7d0f4fbaa938e9e57c8f7f7a5.jpg"
+            music[28]="https://freetyst.nf.migu.cn/public/product8th/product39/2020/04/2810/2018%E5%B9%B412%E6%9C%8820%E6%97%A513%E7%82%B945%E5%88%86%E6%89%B9%E9%87%8F%E9%A1%B9%E7%9B%AE%E6%AD%A3%E4%B8%9C100%E9%A6%96-8/%E6%AD%8C%E6%9B%B2%E4%B8%8B%E8%BD%BD/MP3_40_16_Stero/6005661SYQE101806.mp3?key=a22480a95af638fd&Tim=1605708752184&channelid=00&msisdn=7165f1de34fa4a76a2ca6faa79de602d&CI=6005661SYQE2600914000005624698&F=000009"
+            picture[28]="https://cdnmusic.migu.cn/picture/2020/0926/0324/ASc0aebd3c75c3a255a8159204f3782887.jpg"
+            music[29]="https://freetyst.nf.migu.cn/public/product9th/product42/2020/11/1216/2020%E5%B9%B411%E6%9C%8811%E6%97%A509%E7%82%B914%E5%88%86%E7%B4%A7%E6%80%A5%E5%86%85%E5%AE%B9%E5%87%86%E5%85%A5%E6%AD%A3%E4%B8%9C14%E9%A6%96509974/%E6%AD%8C%E6%9B%B2%E4%B8%8B%E8%BD%BD/MP3_40_16_Stero/6005662W3NU160205.mp3?key=50ebbb391ecd8240&Tim=1605886885253&channelid=00&msisdn=3c05730b1ccc4dc6bf2a7e17941338cf&CI=6005662W3NU2600919000002093832&F=000009"
+            picture[29]="https://cdnmusic.migu.cn/picture/2020/1114/0324/AScd21adefa791e3767a66587b3bc0adb8.jpg"
+            music[30]="https://freetyst.nf.migu.cn/public/product9th/product41/2020/07/0215/2019%E5%B9%B401%E6%9C%8829%E6%97%A512%E7%82%B940%E5%88%86%E6%89%B9%E9%87%8F%E9%A1%B9%E7%9B%AE%E6%AD%A3%E4%B8%9C100%E9%A6%96-2/%E6%AD%8C%E6%9B%B2%E4%B8%8B%E8%BD%BD/MP3_40_16_Stero/6005661L6PT152322.mp3?key=c273ee53039b9b73&Tim=1605887001187&channelid=00&msisdn=79336df1a2b54d6c8f99ec7f456b73c8&CI=6005661L6PT2600914000007180680&F=000009"
+            picture[30]="https://cdnmusic.migu.cn/picture/2019/1111/2349/AS179018847ccf4f50a80739703ccb8688.jpg"
+            music[31]="https://freetyst.nf.migu.cn/public/product9th/product41/2020/09/1618/2019%E5%B9%B401%E6%9C%8829%E6%97%A512%E7%82%B930%E5%88%86%E6%89%B9%E9%87%8F%E9%A1%B9%E7%9B%AE%E6%AD%A3%E4%B8%9C100%E9%A6%96-11/%E6%AD%8C%E6%9B%B2%E4%B8%8B%E8%BD%BD/MP3_40_16_Stero/6005661GZ74182048.mp3?key=d71bcf7275ae62eb&Tim=1605887160945&channelid=00&msisdn=9c268ba03ca244deaf470784d9bf5b33&CI=6005661GZ742600914000007178249&F=000009"
+            picture[31]="https://cdnmusic.migu.cn/picture/2019/0603/0814/AS1002f551eff2447485b16009e5fe2dd8.jpg"
+            music[32]="https://freetyst.nf.migu.cn/public/product5th/product34/2019/07/0116/2019%E5%B9%B401%E6%9C%8829%E6%97%A512%E7%82%B930%E5%88%86%E6%89%B9%E9%87%8F%E9%A1%B9%E7%9B%AE%E6%AD%A3%E4%B8%9C100%E9%A6%96-2/%E6%AD%8C%E6%9B%B2%E4%B8%8B%E8%BD%BD/MP3_40_16_Stero/6005661J2AV.mp3?key=ba5a9e408cc938c7&Tim=1605887274716&channelid=00&msisdn=1e97968c7e4a44208340b7c677f188ec&CI=6005661J2AV2600914000007182179&F=000009"
+            picture[32]="https://cdnmusic.migu.cn/picture/2020/1029/0328/AS881ab13142e063fd65e71d1b813e1a05.jpg"
+            music[33]="https://freetyst.nf.migu.cn/public/product9th/product41/2020/09/2318/2020%E5%B9%B409%E6%9C%8817%E6%97%A518%E7%82%B939%E5%88%86%E7%B4%A7%E6%80%A5%E5%86%85%E5%AE%B9%E5%87%86%E5%85%A5%E6%AD%A3%E4%B8%9C15%E9%A6%96511317/%E6%AD%8C%E6%9B%B2%E4%B8%8B%E8%BD%BD/MP3_40_16_Stero/6005662SFB3180124.mp3?key=30fd91bfe1012e3c&Tim=1605887523512&channelid=00&msisdn=b4cf88a4a82b47959e608a06e85a85af&CI=6005662SFB32600919000001265958&F=000009"
+            picture[33]="https://cdnmusic.migu.cn/picture/2018/0313/0842/ASb269ce0418ed4791ac0c9b30fb691418.jpg"
+            // music[]=""
+            // picture[]=""
+            // music[]=""
+            // picture[]=""
+            document.getElementById("yinyue").src=music[x];
+            document.getElementById("tu").src=picture[x];
+            var y=document.getElementById("yinyue");
+            var t=document.getElementById("tu");
+            y.play();
+            var h=document.getElementById(x).innerHTML;
+            document.getElementById("hname").innerHTML=h;
+        }
+        // document.getElementById("body").addEventListener("scroll", myfunction3);      //绑定滚动条事件
+        document.getElementById("body").scrollTop = 0;
+        var h=document.getElementById("top").height+document.getElementById("dixia0").height+document.getElementById("banquan").height;
+        document.getElementById("body").height=h;
+        function myfunction3()                              //滚动条触发函数
+        {
+            var h=document.documentElement.scrollTop;       //获得滚动条的高度
+            if(h>0)
+            {
+                var a=document.getElementById("top");             //顶部div过渡
+                a.style.height='200px';
+                var b=document.getElementById("tu");              //顶部专辑图片过渡
+                b.style.height='180px';
+                b.style.width='180px';
+                var c=document.getElementById("yinyue0");          //audio属性过渡
+                c.style.position='absolute';
+                c.style.top='60px';
+                c.style.right='250px';
+            }
+            else
+            {
+                var a=document.getElementById("top");
+                a.style.height='350px';
+                var b=document.getElementById("tu");
+                b.style.height='250px';
+                b.style.width='250px';
+                var c=document.getElementById("yinyue0");          //audio属性过渡
+                c.style.float="none";
+                c.style.position='initial';
+            }
+        }
+        function myfunction2()
+        {
+            if(document.getElementById("yinyue").paused)
+            {
+                var b=document.getElementById("tu");
+                b.style.animationPlayState="paused";
+            }
+            else
+                {
+                    var c=document.getElementById("tu");
+                    c.style.animationPlayState="running";
+                }
+        }
+    </script>
+    <div id="top" class="topbackground">
+        <div class="biaozhi">SingSong小新</div>
+        <a href="../main.html"><div class="shouye">回到首页</div></a>
+        <img id="tu" src="../img/音符.jpg" alt="" class="p1">
+        <div id="yinyue0" style="height: 85px;">
+            <h3 style="margin: 0px;" id="hname" class="h3"></h3>
+            <audio id="yinyue" controls src="" style="height: 60px;border: 0px;text-align: center;outline: none;position: ;" onpause="myfunction2()" onplay="myfunction2()"></audio>
+        </div>
+    </div>
+        <div id="dixia0" style="height: 1700px;font-family: myFirstfont1;">
+                <div style="padding-left: 80px;padding-right: 80px;">
+                    <div style="background-color: rgb(255, 255, 255);margin: 0;padding: 25px;">
+                        <div style="font-size: 15px;color: rgb(114, 54, 114);" class="mname">歌曲</div><div style="font-size: 15px;color: rgb(114, 54, 114);"class="mname1">歌手</div> 
+                    </div>
+                </div>
+                <div id="dixia1" style="padding-left: 80px;padding-right: 80px;">    
+                    <div class="xiang" onclick="myfunction(1)">
+                        <div class="mname" id="1">what do you mean</div><div class="mname1">justin beiber</div>
+                    </div>
+                    <div class="xiang" onclick="myfunction(2)">
+                        <div class="mname" id="2">holy</div><div class="mname1">justin beiber</div> 
+                    </div>
+                    <div class="xiang" onclick="myfunction(3)">
+                        <div class="mname" id="3">Despacito(Remix)</div><div class="mname1">justin beiber</div> 
+                    </div>
+                    <div class="xiang" onclick="myfunction(4)">
+                        <div class="mname" id="4">sorry</div><div class="mname1">justin beiber</div> 
+                    </div>
+                    <div class="xiang" onclick="myfunction(5)">
+                        <div class="mname" id="5">been you</div><div class="mname1">justin beiber</div> 
+                    </div>
+                    <div class="xiang" onclick="myfunction(6)">
+                        <div class="mname" id="6">Love youself</div><div class="mname1">justin beiber</div> 
+                    </div>
+                    <div class="xiang" onclick="myfunction(7)">
+                        <div class="mname" id="7">Let Me Love You</div><div class="mname1">justin beiber/DJ snake</div> 
+                    </div>
+                    <div class="xiang" onclick="myfunction(8)">
+                        <div class="mname" id="8">I'm the One</div><div class="mname1">DJ Khaled/Justin Bieber/Quavo/Chance the Rapper</div> 
+                    </div>
+                    <div class="xiang" onclick="myfunction(9)">
+                        <div class="mname" id="9">baby</div><div class="mname1"> Justin Bieber/Ludacris</div> 
+                    </div>
+                    <div class="xiang" onclick="myfunction(10)">
+                        <div class="mname" id="10">一路向北</div><div class="mname1">周杰伦</div>
+                    </div>
+                    <div class="xiang" onclick="myfunction(11)">
+                        <div class="mname" id="11">以父之名</div><div class="mname1">周杰伦</div> 
+                    </div>
+                    <div class="xiang" onclick="myfunction(12)">
+                        <div class="mname" id="12">稻香</div><div class="mname1">周杰伦</div> 
+                    </div>
+                    <div class="xiang" onclick="myfunction(13)">
+                        <div class="mname" id="13">听妈妈的话</div><div class="mname1">周杰伦</div> 
+                    </div>
+                    <div class="xiang" onclick="myfunction(14)">
+                        <div class="mname" id="14">七里香</div><div class="mname1">周杰伦</div> 
+                    </div>
+                    <div class="xiang" onclick="myfunction(15)">
+                        <div class="mname" id="15">告白气球</div><div class="mname1">周杰伦</div> 
+                    </div>
+                    <div class="xiang" onclick="myfunction(16)">
+                        <div class="mname" id="16">青花瓷</div><div class="mname1">周杰伦</div> 
+                    </div>
+                    <div class="xiang" onclick="myfunction(17)">
+                        <div class="mname" id="17">等你下课</div><div class="mname1">周杰伦/杨瑞代</div> 
+                    </div>
+                    <div class="xiang" onclick="myfunction(18)">
+                        <div class="mname" id="18">晴天</div><div class="mname1">周杰伦</div> 
+                    </div>
+                    <div class="xiang" onclick="myfunction(19)">
+                        <div class="mname" id="19">说好不哭</div><div class="mname1">周杰伦/阿信</div> 
+                    </div>
+                    <div class="xiang" onclick="myfunction(20)">
+                        <div class="mname" id="20">Love story</div><div class="mname1">Taylor Swift</div>
+                    </div>
+                    <div class="xiang" onclick="myfunction(21)">
+                        <div class="mname" id="21">Red</div><div class="mname1">Taylor Swift</div>
+                    </div>
+                    <div class="xiang" onclick="myfunction(22)">
+                        <div class="mname" id="22">We Are Never Ever Getting Back Together</div><div class="mname1">Taylor Swift</div>
+                    </div>
+                    <div class="xiang" onclick="myfunction(23)">
+                        <div class="mname" id="23">I Knew You Were Trouble</div><div class="mname1">Taylor Swift</div>
+                    </div>
+                    <div class="xiang" onclick="myfunction(24)">
+                        <div class="mname" id="24">Style</div><div class="mname1">Taylor Swift</div>
+                    </div>
+                    <div class="xiang" onclick="myfunction(25)">
+                        <div class="mname" id="25">情非得已</div><div class="mname1">庾澄庆</div>
+                    </div>
+                    <div class="xiang" onclick="myfunction(26)">
+                        <div class="mname" id="26">淘汰</div><div class="mname1">陈奕迅</div>
+                    </div>
+                    <div class="xiang" onclick="myfunction(27)">
+                        <div class="mname" id="27">最佳损友</div><div class="mname1">陈奕迅</div>
+                    </div>
+                    <div class="xiang" onclick="myfunction(28)">
+                        <div class="mname" id="28">夕阳无限好</div><div class="mname1">陈奕迅</div>
+                    </div>
+                    <div class="xiang" onclick="myfunction(29)">
+                        <div class="mname" id="29">一千个伤心的理由</div><div class="mname1">张学友</div>
+                    </div>
+                    <div class="xiang" onclick="myfunction(30)">
+                        <div class="mname" id="30">只想一生跟你走</div><div class="mname1">张学友</div>
+                    </div>
+                    <div class="xiang" onclick="myfunction(31)">
+                        <div class="mname" id="31">她来听我演唱会</div><div class="mname1">张学友</div>
+                    </div>
+                    <div class="xiang" onclick="myfunction(32)">
+                        <div class="mname" id="32">讲不出再见</div><div class="mname1">谭咏麟</div>
+                    </div>
+                    <div class="xiang" onclick="myfunction(33)">
+                        <div class="mname" id="33">喜帖街</div><div class="mname1">谢安琪</div>
+                    </div>
+                </div>
+        </div>
+    <div id="banquan" style="margin: 0px;background-color: rgb(133, 201, 228);height: 36px;clear: both;">
+        <h2 style="height: 0px;text-align: center;margin: 0;">SingSong小新 2020年</h2>
+    </div>
+</html>

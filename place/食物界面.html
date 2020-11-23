@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="../CSS/music.css">
+    <link rel="stylesheet" type="text/css" href="../CSS/food.css">
+</head>
+<style>
+    body,html
+    {
+        margin: 0;   
+    }
+</style>
+<script>
+    function music1()
+    {
+        var a=document.getElementById("fmusic");
+        a.play();
+    }
+    function music2()
+    {
+        var a=document.getElementById("fmusic");
+        a.pause();
+    }
+</script>
+<body>
+    <div id="top" class="ftop">
+            <audio autoplay id="fmusic" src="../media/music1.mp3" type="audio/ogg" style="height: 30px;width: 100%;"></audio>
+            <div class="biaozhi" style="color: rgb(221, 231, 193);top: 20px;">SingSong小新</div>
+            <div style="float: right;background-color:transparent;height: 80px;width: 470px;margin: 10px;position: relative;right: 90px;">
+                    <div class="daohang0">
+                        <div class="daohang" onclick="location='../main.html'">返回首页</div>
+                        <div id="t1" class="tiao"></div>
+                    </div>
+                    <div class="daohang0">
+                        <div class="daohang" onclick="music1()">播放音乐</div>
+                        <div id="t2" class="tiao"></div>
+                    </div>
+                    <div class="daohang0">
+                        <div class="daohang" onclick="music2()">暂停音乐</div>
+                        <div id="t3" class="tiao"></div>
+                    </div>
+            </div>
+    </div>
+    <div class="fjieshao">
+        <div style="height: 120px;padding: 30px;">
+            <p class="fwelcome">欢迎你</p>
+        </div>
+    </div>
+    <div id="zhu" class="fzhu">
+            <div id="zhu0" class="food">
+                <div id="Every" class="EveryFood"></div>
+                <div id="Every" class="EveryFood"></div>
+            </div>
+    </div>
+    <script>
+        var ZhuWight=document.body.clientWidth;
+        var a=document.getElementById("zhu0");
+        a.style.width=(ZhuWight/10)*8+'px';
+        a.style.marginLeft=(ZhuWight/10)+'px';
+        a.style.marginRight=(ZhuWight/10)+'px';            //zhu自适应屏幕宽度
+        var ZhuWight0=a.offsetWidth;                       //有值，注意是用offsetwidth直接获取一个值
+        var b=document.getElementById("Every");
+        // a.innerHTML=ZhuWight0;
+        b.style.width=(ZhuWight0/3)+'px';
+    </script>
+</body>
+</html>
+<!-- 来到小新喜欢吃的食物区域，这里小新将会给你介绍小新吃过的好吃的各种食物，看看有没有你吃过的哟！ -->

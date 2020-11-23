@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="CSS/music.css">
+    <style>
+    html,body
+    {
+        margin: 0px;
+        height: 100%;
+        position: relative;
+    }
+    </style>
+    <script>
+        function myfunction()
+        {
+            alert("暂未开放！小新抓紧时间开发中！")
+        }
+    </script>
+</head>
+<body>
+    <div style="background: url(img/star.jpg);height: 100%;background-size: 100% 100%;">
+        <div class="music">
+            <audio controls autoplay src="media/V.K克 - 镜夜.mp3" type="audio/ogg" style="height: 30px;width: 100%;"></audio>
+        </div>
+            <div style="margin-top: 10%;margin-left: 25%;margin-bottom: 10%;height: 270px;width: 50%;">
+                <div class="manue" style="float: left;position: relative;left: 80px;top: 20px;" onclick="myfunction()">喜欢的美食</div>
+                <div class="manue" style="float: right;position: relative;left: -80px;top: 20px" onclick="myfunction()">喜欢的城市</div>
+                <div class="manue" style="float: left; clear: both;position: relative;left: 80px;top: 60px" onclick="myfunction()">喜欢的明星</div>
+                <div class="manue" style="float: right;position: relative;left: -80px;top: 60px" onclick="location='place/音乐界面.html'">喜欢的音乐</div>
+                <div class="manue" style="float: left; clear: both;position: relative;left: 80px;top: 95px" onclick="myfunction()">喜欢的乐器</div>
+                <div class="manue" style="float: right;position: relative;left: -80px;top: 95px" onclick="myfunction()">喜欢的</div>
+            </div>
+    </div>
+</body>
+</html>
